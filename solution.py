@@ -14,9 +14,10 @@ while (Count !=3) or (would_you_like_to_continue=="yes") or ((Character !="b") a
                 would_you_like_to_continue=input("Would you like to continue?")
                 if would_you_like_to_continue=="yes":
                         Count=0
-
-        elif (Character=="e") or (would_you_like_to_continue=="no"):
-                break
+                elif would_you_like_to_continue=="no":
+                  break
+        elif (Character=="e"):
+          break
 
     
 
