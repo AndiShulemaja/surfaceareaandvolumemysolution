@@ -1,5 +1,5 @@
 Count = 0
-while (Count !=3) or (would_you_like_to_continue=="yes") or ((Character !="b") and (Character !="c") and (Character !="e")):
+while (Count !=3) or (would_you_like_to_continue=="yes"):
         Character = input("Enter a character")
         if (Character == "C") or (Character == "B") or (Character=="c") or (Character=="b"):
             Count += 1
@@ -18,7 +18,8 @@ while (Count !=3) or (would_you_like_to_continue=="yes") or ((Character !="b") a
                   break
         elif (Character=="e"):
           break
-
+        else:
+                print("error")
     
 
      
